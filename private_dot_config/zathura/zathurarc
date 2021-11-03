@@ -1,0 +1,14 @@
+set default-fg \#EBDBB2
+set default-bg \#282828
+
+set inputbar-fg \#EBDBB2
+set inputbar-bg \#282828
+
+set statusbar-fg \#EBDBB2
+set statusbar-bg \#282828
+
+set recolor true
+set recolor-darkcolor \#EBDBB2
+set recolor-lightcolor \#282828
+
+set guioptions none
