@@ -4,9 +4,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/trshpnd/.oh-my-zsh"
-
-BLK="04" CHR="04" DIR="04" EXE="00" REG="00" HARDLINK="00" SYMLINK="06" MISSING="00" ORPHAN="01" FIFO="0F" SOCK="0F" OTHER="02"
-export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
+export PATH="$HOME/.local/bin:$PATH"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -102,8 +100,8 @@ export EDITOR='nvim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias nnn="nnn -e"
-alias nn=nnn
+
+alias zshcfg="nv ~/.zshrc"
 alias cls="clear"
 alias orphaned="pacman -Qtdq"
 alias nv="nvim"
@@ -112,3 +110,5 @@ alias clock="tty-clock -cDBC 6"
 alias matrix="cmatrix -C cyan"
 alias at="alacritty-themes"
 alias hotp="htop"
+alias botp="btop"
+alias wttr="curl wttr.in"
