@@ -1,0 +1,16 @@
+@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+configuration{
+	modi: "run,drun,ssh";
+	font: "SauceCodePro Nerd Font 10";
+	show-icons: true;
+	sidebar-mode:true;
+	display-drun:"  ";
+	display-run:"  ";
+	display-ssh:"  ";
+}
+
+window{
+	border: 0;
+}
+
+
